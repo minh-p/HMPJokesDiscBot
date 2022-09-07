@@ -1,9 +1,8 @@
-* AsianBot
+* HMPJokesDiscBot
 A discord bot that generates offensive jokes every single day in a discord channel. For fun!!!
 ** Design Document.
-- Each day, at 12:00am, there will be an asian generated in #asian-joke.
+- Each day, at 12:00am, there will be an asian generated in #HMP-Offensive-Jokes.
     - It will be just jokes (words).
-- There is needed for there to be an #asian-joke channel.
 - This is going to be a simple bot.
 *** Jokes API
 - [[https://v2.jokeapi.dev/][Jokes API]]
