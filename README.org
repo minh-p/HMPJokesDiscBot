@@ -1,0 +1,26 @@
+* AsianBot
+A discord bot that generates offensive jokes every single day in a discord channel. For fun!!!
+** Design Document.
+- Each day, at 12:00am, there will be an asian generated in #asian-joke.
+    - It will be just jokes (words).
+- There is needed for there to be an #asian-joke channel.
+- This is going to be a simple bot.
+*** Jokes API
+- [[https://v2.jokeapi.dev/][Jokes API]]
+- I am going to start to read this.
+- I found a [[https://github.com/leet-hakker/JokeAPI-Python#readme][wrapper for Python]].
+**** The Wrapper
+- It looks like the wrapper, uses the async block. I am going to have to learn that. It's just a special python function from the module asyncio.
+- I have to understand as much as possible about the code before I write any.
+- Jokes API v2 also came with a separate module.
+**** Some other things I would have/like to implement
+- Sometimes, the same joke would repeat twice or more.
+    - So, it would be nice if there was as command to generate a new joke on request.
+*** Discord API
+**** Crucial Functionalities
+- I need the bot to be able to read the commands.
+    - That should be easy, just look in any discord bot's repo as reference.
+- I also need the bot to write the joke whenever there is a command.
+- I am going to use a separate channel for the bot itself.
+*** Misc
+- I have let to figure out a way to run the discord bot and check until the specific time then to input the joke in the server.
